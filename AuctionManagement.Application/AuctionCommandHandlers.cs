@@ -1,9 +1,11 @@
 ﻿using AuctionManagement.Application.Contracts;
 using Framework.Application;
+using System.Threading.Tasks;
 
 namespace AuctionManagement.Application
 {
-    public class AuctionService : ICommandHandler<PlaceBidCommand>,
+    public class AuctionCommandHandlers :
+        ICommandHandler<PlaceBidCommand>,
         ICommandHandler<OpenAuctionCommand>
     {
         public Task Handle(PlaceBidCommand command)

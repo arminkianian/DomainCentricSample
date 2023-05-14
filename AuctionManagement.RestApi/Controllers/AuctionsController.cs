@@ -1,8 +1,6 @@
 ﻿using AuctionManagement.Application.Contracts;
 using Framework.Application;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Windows.Input;
 
 namespace AuctionManagement.RestApi.Controllers
 {
